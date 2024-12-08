@@ -1,0 +1,89 @@
+h1, h2, h3 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+ 
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container {
+  padding: 10px 30px 0px 30px;
+  height: 100%;
+}
+
+
+.headPart h1 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.headPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.themeToggle {
+  margin: 10px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  background: black;
+}
+
+
+
+.harvest {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  border-bottom: 1px solid black;
+}
+
+.infoItem { 
+  border-bottom: 1px solid black;
+  line-height: 0.9;
+}
+
+.harvest img{
+  width: 50px;
+  height: 50px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.statsItemText {
+  text-align: center;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statsCount {
+  border: 5px solid #08F5CB;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 50%;
+
+  text-align: center;
+  line-height: 5;
+}
